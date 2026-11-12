@@ -78,6 +78,11 @@ nexvia_capstone/
 │   ├── deployment.yaml                      # Kubernetes Deployment manifest
 │   ├── service.yaml                         # Kubernetes NodePort Service manifest
 │   ├── feature_repo/                        # Feast feature store definitions
+│   ├── docs/
+│   │   ├── architecture.md                  # Detailed architectural & mathematical design
+│   │   ├── intern_reflections.md            # Individual Intern Reflection report
+│   │   ├── presentation_10min.md            # 10-Minute Presentation Slide Deck
+│   │   └── presentation_5min_loom.md        # Dedicated 5-minute Loom Presentation Script
 │   └── requirements.txt                     # AIML-01 dependencies
 │
 └── AIML-03_Recommender/                     # Two-Stage Recommendation Engine
