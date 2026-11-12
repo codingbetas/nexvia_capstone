@@ -1,0 +1,30 @@
+name: "ranking"
+platform: "onnxruntime_onnx"
+max_batch_size: 256
+
+input [
+  {
+    name: "features"
+    data_type: TYPE_FP32
+    dims: [7]
+  }
+]
+
+output [
+  {
+    name: "ranking_score"
+    data_type: TYPE_FP32
+    dims: [1]
+  }
+]
+
+dynamic_batching {
+  max_queue_delay_microseconds: 2000
+}
+
+instance_group [
+  {
+    count: 1
+    kind: KIND_CPU
+  }
+]

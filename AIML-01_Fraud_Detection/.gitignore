@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large raw datasets (> 100MB exceeds GitHub push limit)
+creditcard.csv
+*.csv
+
+# MLflow tracking runs & database
+mlruns/
+mlflow.db
+
+# Drift reports (HTML generated at runtime)
+data_drift_report.html
+
+# Feast runtime cache
+feature_repo/feature_repo/data/online_store.db
+feature_repo/feature_repo/data/registry.db
+
+# Logs & temp
+*.log
+*.tmp

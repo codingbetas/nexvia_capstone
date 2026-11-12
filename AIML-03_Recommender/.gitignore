@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.pdf
+
+# Large artifacts & temp
+*.log
+*.tmp
